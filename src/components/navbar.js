@@ -13,7 +13,6 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-// import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
@@ -72,7 +71,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/agungtri222/agung-homepage"
+            href="https://github.com/agungtri222/homepage"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -85,7 +84,6 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-          {/* <ThemeToggleButton /> */}
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
@@ -104,7 +102,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/agungtri222/homepage"
                 >
                   View Source
                 </MenuItem>

@@ -3,7 +3,6 @@ import {
     Container,
     useColorModeValue,
     Heading,
-    SimpleGrid,
     chakra
 } from '@chakra-ui/react'
 import Image from 'next/image'
