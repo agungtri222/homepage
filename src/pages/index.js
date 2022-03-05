@@ -63,7 +63,7 @@ const Home = () => (
                 <Paragraph>
                     Agung is a freelance full-stack developer and open source enthusiast based in Surabaya
                     with industry experience building websites and web applications.
-                    Love to sloving real-life problems with code. an he was a self-taught programmer.
+                    Love to solving real-life problems with code. an he was a self-taught programmer.
                     when not online, he loves to playing games, drink coffee and reading his favorite books.
                 </Paragraph>
             </Section>
